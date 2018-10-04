@@ -1,0 +1,23 @@
+1.	Suppose u and v both have values of type set and u^v == u + v. From this we can conclude that:
+	a) u and v are identical
+	b) u and v are disjoint
+	c) u is a subset of v
+	d) v is a subset of u
+
+		Ans : b
+
+2.	Suppose u and v both denote sets in Python. Under what condition can we guarantee that u - (v - u) == u?
+	a) This is true for any u and v.
+	b) The set u should be a subset of v.
+	c) The set v should be a subset of u.
+	d) The sets u and v should be disjoint.
+
+		Ans : a
+
+3.	We have a list of values [17,98,89,42,67,54,89,25,38]. Suppose we build a max-heap by starting with an empty heap and inserting each value from the list into the heap, from left to right. Write the resulting heap, as a list.
+
+		Ans : [98,67,89,38,42,54,89,17,25]
+
+4.	Suppose we insert the value 97 into the heap built in the previous question. The resulting heap will then be:
+
+		Ans : [98,97,89,38,67,54,89,17,25,42]
